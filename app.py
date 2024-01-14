@@ -85,6 +85,9 @@ elif visualization == "Dashboard":
 
     filter_date = pd.to_datetime(filter_date)
 
+    # Fill NA values in 'subcategory' with 'uncategorized'
+    df['subcategory'] = df['subcategory'].fillna('Uncategorized')
+
     df_date_filtered = df[(df['date'] >= filter_date[0]) & (df['date'] <= filter_date[1])]
 
     # Expenses filtered dataset by date
@@ -329,10 +332,9 @@ elif visualization == "Dashboard":
     # Highest expense subcategory donut chart
     with col3:
         
+        highest_expense_category = df_complete_expenses_filtered[df_complete_expenses_filtered['category'] != 'Investment']
         highest_expense_category = str(df_complete_expenses_filtered.groupby('category')['value'].sum().idxmax())
        
-        st.write(highest_expense_category)
-
         st.markdown("""
             <style>
             .st-emotion-cache-12w0qpk.e1f1d6gn1 {
