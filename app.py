@@ -139,9 +139,9 @@ elif visualization == "Dashboard":
 
         # Customize layout
         fig_monthly_bar.update_layout(
-            width = 640,
+            width = 840,
             title = {
-                'text': 'Monthly Income and Expenses',
+                'text': '',
                 'x': 0
             },
             autosize = True,
