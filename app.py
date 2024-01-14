@@ -254,7 +254,7 @@ elif visualization == "Dashboard":
                 titlefont_size = 16,
                 tickfont_size = 14,
                 showgrid = True,
-                gridcolor = 'gray'
+                gridcolor = 'lightgray'
             ),
             legend = dict(
                 orientation = 'h',
