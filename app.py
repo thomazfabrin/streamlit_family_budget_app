@@ -139,6 +139,7 @@ elif visualization == "Dashboard":
 
         # Customize layout
         fig_monthly_bar.update_layout(
+            width = 640,
             title = {
                 'text': 'Monthly Income and Expenses',
                 'x': 0
@@ -153,7 +154,8 @@ elif visualization == "Dashboard":
                 title = 'Amount',
                 titlefont_size = 16,
                 tickfont_size = 14,
-                showgrid = True
+                showgrid = True,
+                gridcolor = 'lightgray'
             ),
             legend = dict(
                 orientation = 'h',
