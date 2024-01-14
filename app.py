@@ -102,7 +102,7 @@ elif visualization == "Dashboard":
 
     df_complete_expenses_filtered = df_date_filtered[(df_date_filtered["category"].isin(selected_category) & df_date_filtered["subcategory"].isin(selected_subcategory))]
 
-    col1, col2 = st.columns(2, gap = "large")
+    col1, col2 = st.columns(2)
 
     # Monthly income and expenses bar chart
     with col1:
@@ -207,7 +207,7 @@ elif visualization == "Dashboard":
         # Show plot        
         st.plotly_chart(fig_bills_treemap)
     
-    col1, col2, col3, col4 = st.columns([1.3, 1.5, 0.81, 1.5], gap = "small")
+    col1, col2, col3, col4 = st.columns([1.3, 1.5, 0.81, 1.5])
 
     # Investment cumulative line chart
     with col1:
