@@ -6,7 +6,7 @@ footer = """
         bottom: 0;
         width: 100%;
         background-color: transparent;
-        padding-right: 150px;
+        padding-right: 100px;
         padding-bottom: 10px;
         color: grey;
         text-align: right;
