@@ -263,8 +263,8 @@ elif visualization == "Dashboard":
                 bgcolor = 'rgba(255, 255, 255, 0)',
                 bordercolor = 'rgba(255, 255, 255, 0)'
             ),
-            # plot_bgcolor='rgba(0,0,0,0)',  
-            # paper_bgcolor='rgba(0,0,0,0)'  
+            plot_bgcolor='rgba(0,0,0,0)',  
+            paper_bgcolor='rgba(0,0,0,0)'  
         )
         
         st.plotly_chart(fig_investment_cumulative)
