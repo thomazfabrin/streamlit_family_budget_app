@@ -53,12 +53,19 @@ if visualization == "Tutorial":
 # Dashboard page
 elif visualization == "Dashboard":
 
+    required_columns = ['category', 'subcategory', 'description', 'date', 'value', 'income']
+
     # Upload button
     uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type=("csv"))
         
     if uploaded_file is not None:
         st.sidebar.write('You uploaded a file!')
         df = pd.read_csv(uploaded_file) # User file
+
+        # Check if required columns are in the DataFrame
+        if not all(column in df.columns for column in required_columns):
+            st.error('The uploaded CSV file is missing one or more required columns.')
+        
     else:
         df = pd.read_csv('data/budget_example_dataset.csv')
 
@@ -82,7 +89,7 @@ elif visualization == "Dashboard":
 
     # Expenses filtered dataset by date
     df_date_filtered_expenses = df_date_filtered[df_date_filtered['income']== 0]
-
+    
     # Get categories and subcategories and add multiselect widget
     categories = df_date_filtered_expenses['category'].unique()
 
@@ -283,7 +290,6 @@ elif visualization == "Dashboard":
         min_investment = df_investment_monthly['value'].min()
         average_income_monthly = df_income_monthly['value'].mean()
         average_expenses_monthly = df_expenses_monthly['value'].mean()
-        highest_expense_category = df_date_filtered_expenses.groupby('category')['value'].sum().idxmax()
         highest_income_category = df_income.groupby('category')['value'].sum().idxmax()
 
         summary_one = f"""
@@ -322,6 +328,10 @@ elif visualization == "Dashboard":
 
     # Highest expense subcategory donut chart
     with col3:
+        
+        highest_expense_category = str(df_complete_expenses_filtered.groupby('category')['value'].sum().idxmax())
+       
+        st.write(highest_expense_category)
 
         st.markdown("""
             <style>
