@@ -1,0 +1,157 @@
+category,subcategory,description,date,value,income
+Household,Apartment rent,,01/01/2023,700,0
+Household,Energy bill,,01/01/2023,60,0
+Household,Internet,,01/01/2023,40,0
+Supermarket,,,01/20/2023,200,0
+Transportation,Fuel,,01/15/2023,90,0
+Transportation,Train tickets,,01/25/2023,40,0
+Health,Health insurance,,01/01/2023,250,0
+Restaurant,Lunch,,01/13/2023,50,0
+Restaurant,Delivery,,01/16/2023,20,0
+Salary,Salary,,01/01/2023,1700,1
+Others,Freelance,,01/05/2023,200,1
+Investment,Stocks,,01/10/2023,50,0
+Investment,Savings,,01/01/2023,50,0
+Household,Apartment rent,,02/01/2023,700,0
+Household,Energy bill,,02/01/2023,60,0
+Household,Internet,,02/01/2023,40,0
+Supermarket,,,02/01/2023,150,0
+Transportation,Fuel,,02/01/2023,90,0
+Transportation,Train tickets,,02/01/2023,40,0
+Health,Health insurance,,02/01/2023,250,0
+Restaurant,Lunch,,02/01/2023,50,0
+Restaurant,Delivery,,02/01/2023,20,0
+Salary,Salary,,02/01/2023,1700,1
+Others,Freelance,,02/01/2023,0,1
+Investment,Stocks,,02/01/2023,50,0
+Investment,Savings,,02/01/2023,0,0
+Household,Apartment rent,,03/01/2023,700,0
+Household,Energy bill,,03/01/2023,60,0
+Household,Internet,,03/01/2023,40,0
+Supermarket,,,03/01/2023,150,0
+Transportation,Fuel,,03/01/2023,90,0
+Transportation,Train tickets,,03/01/2023,40,0
+Health,Health insurance,,03/01/2023,250,0
+Restaurant,Lunch,,03/01/2023,50,0
+Restaurant,Delivery,,03/01/2023,20,0
+Salary,Salary,,03/01/2023,1700,1
+Others,Freelance,,03/01/2023,350,1
+Investment,Stocks,,03/01/2023,100,0
+Investment,Savings,,03/01/2023,0,0
+Household,Apartment rent,,04/01/2023,700,0
+Household,Energy bill,,04/01/2023,60,0
+Household,Internet,,04/01/2023,40,0
+Supermarket,,,04/01/2023,350,0
+Transportation,Fuel,,04/01/2023,20,0
+Transportation,Train tickets,,04/01/2023,15,0
+Health,Health insurance,,04/01/2023,250,0
+Restaurant,Lunch,,04/01/2023,50,0
+Restaurant,Delivery,,04/01/2023,20,0
+Salary,Salary,,04/01/2023,1700,1
+Others,Freelance,,04/01/2023,350,1
+Investment,Stocks,,04/01/2023,100,0
+Investment,Savings,,04/01/2023,0,0
+Household,Apartment rent,,05/01/2023,700,0
+Household,Energy bill,,05/01/2023,60,0
+Household,Internet,,05/01/2023,40,0
+Supermarket,,,05/01/2023,350,0
+Transportation,Fuel,,05/01/2023,100,0
+Transportation,Train tickets,,05/01/2023,35,0
+Health,Health insurance,,05/01/2023,250,0
+Restaurant,Lunch,,05/01/2023,50,0
+Restaurant,Delivery,,05/01/2023,20,0
+Salary,Salary,,05/01/2023,1750,1
+Others,Freelance,,05/01/2023,75,1
+Investment,Stocks,,05/01/2023,100,0
+Investment,Savings,,05/01/2023,150,0
+Household,Apartment rent,,06/01/2023,700,0
+Household,Energy bill,,06/01/2023,60,0
+Household,Internet,,06/01/2023,40,0
+Supermarket,,,06/01/2023,350,0
+Transportation,Fuel,,06/01/2023,100,0
+Transportation,Train tickets,,06/01/2023,35,0
+Health,Health insurance,,06/01/2023,250,0
+Restaurant,Lunch,,06/01/2023,50,0
+Restaurant,Delivery,,06/01/2023,20,0
+Salary,Salary,,06/01/2023,1700,1
+Others,Freelance,,06/01/2023,10,1
+Investment,Stocks,,06/01/2023,25,0
+Investment,Savings,,06/01/2023,100,0
+Household,Apartment rent,,07/01/2023,700,0
+Household,Energy bill,,07/01/2023,60,0
+Household,Internet,,07/01/2023,40,0
+Supermarket,,,07/01/2023,350,0
+Transportation,Fuel,,07/01/2023,100,0
+Transportation,Train tickets,,07/01/2023,35,0
+Health,Health insurance,,07/01/2023,250,0
+Restaurant,Lunch,,07/01/2023,50,0
+Restaurant,Delivery,,07/01/2023,20,0
+Salary,Salary,,07/01/2023,1700,1
+Others,Freelance,,07/01/2023,10,1
+Investment,Stocks,,07/01/2023,25,0
+Investment,Savings,,07/01/2023,50,0
+Household,Apartment rent,,08/01/2023,700,0
+Household,Energy bill,,08/01/2023,60,0
+Household,Internet,,08/01/2023,40,0
+Supermarket,,,08/01/2023,350,0
+Transportation,Fuel,,08/01/2023,50,0
+Transportation,Train tickets,,08/01/2023,0,0
+Health,Health insurance,,08/01/2023,250,0
+Restaurant,Lunch,,08/01/2023,50,0
+Restaurant,Delivery,,08/01/2023,20,0
+Salary,Salary,,08/01/2023,1700,1
+Others,Freelance,,08/01/2023,500,1
+Investment,Stocks,,08/01/2023,350,0
+Investment,Savings,,08/01/2023,100,0
+Household,Apartment rent,,09/01/2023,700,0
+Household,Energy bill,,09/01/2023,60,0
+Household,Internet,,09/01/2023,40,0
+Supermarket,,,09/01/2023,350,0
+Transportation,Fuel,,09/01/2023,100,0
+Transportation,Train tickets,,09/01/2023,35,0
+Health,Health insurance,,09/01/2023,250,0
+Restaurant,Lunch,,09/01/2023,50,0
+Restaurant,Delivery,,09/01/2023,20,0
+Salary,Salary,,09/01/2023,1700,1
+Others,Freelance,,09/01/2023,500,1
+Investment,Stocks,,09/01/2023,350,0
+Investment,Savings,,09/01/2023,100,0
+Household,Apartment rent,,10/01/2023,700,0
+Household,Energy bill,,10/01/2023,60,0
+Household,Internet,,10/01/2023,40,0
+Supermarket,,,10/01/2023,350,0
+Transportation,Fuel,,10/01/2023,100,0
+Transportation,Train tickets,,10/01/2023,35,0
+Health,Health insurance,,10/01/2023,250,0
+Restaurant,Lunch,,10/01/2023,50,0
+Restaurant,Delivery,,10/01/2023,20,0
+Salary,Salary,,10/01/2023,1800,1
+Others,Freelance,,10/01/2023,0,1
+Investment,Stocks,,10/01/2023,150,0
+Investment,Savings,,10/01/2023,50,0
+Household,Apartment rent,,11/01/2023,700,0
+Household,Energy bill,,11/01/2023,60,0
+Household,Internet,,11/01/2023,40,0
+Supermarket,,,11/01/2023,350,0
+Transportation,Fuel,,11/01/2023,100,0
+Transportation,Train tickets,,11/01/2023,35,0
+Health,Health insurance,,11/01/2023,250,0
+Restaurant,Lunch,,11/01/2023,50,0
+Restaurant,Delivery,,11/01/2023,20,0
+Salary,Salary,,11/01/2023,1800,1
+Others,Freelance,,11/01/2023,0,1
+Investment,Stocks,,11/01/2023,150,0
+Investment,Savings,,11/01/2023,50,0
+Household,Apartment rent,,12/01/2023,700,0
+Household,Energy bill,,12/01/2023,60,0
+Household,Internet,,12/01/2023,40,0
+Supermarket,,,12/01/2023,450,0
+Transportation,Fuel,,12/01/2023,100,0
+Transportation,Train tickets,,12/01/2023,35,0
+Health,Health insurance,,12/01/2023,250,0
+Restaurant,Lunch,,12/01/2023,50,0
+Restaurant,Delivery,,12/01/2023,20,0
+Salary,Salary,,12/01/2023,1800,1
+Others,Freelance,,12/01/2023,500,1
+Investment,Stocks,,12/01/2023,450,0
+Investment,Savings,,12/01/2023,100,0
