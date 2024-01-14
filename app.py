@@ -147,12 +147,13 @@ elif visualization == "Dashboard":
             xaxis = dict(
                 tickangle = 360,
                 tickfont_size = 13,
-                nticks = 5,
+                nticks = 5
             ),
             yaxis = dict(
                 title = 'Amount',
                 titlefont_size = 16,
                 tickfont_size = 14,
+                showgrid = True
             ),
             legend = dict(
                 orientation = 'h',
@@ -237,7 +238,7 @@ elif visualization == "Dashboard":
         )
         
         fig_investment_cumulative.update_layout(
-            width = 350,
+            width = 400,
             title = {
                 'text': '',
                 'x': 0
@@ -252,6 +253,7 @@ elif visualization == "Dashboard":
                 title = 'Amount',
                 titlefont_size = 16,
                 tickfont_size = 14,
+                showgrid = True
             ),
             legend = dict(
                 orientation = 'h',
