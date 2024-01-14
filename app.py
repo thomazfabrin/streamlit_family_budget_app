@@ -238,7 +238,7 @@ elif visualization == "Dashboard":
         )
         
         fig_investment_cumulative.update_layout(
-            width = 400,
+            width = 430,
             title = {
                 'text': '',
                 'x': 0
@@ -264,7 +264,7 @@ elif visualization == "Dashboard":
                 bordercolor = 'rgba(255, 255, 255, 0)'
             ),
             plot_bgcolor='rgba(0,0,0,0)',  
-            paper_bgcolor='rgba(0,0,0,0)'  
+            # paper_bgcolor='rgba(0,0,0,0)'  
         )
         
         st.plotly_chart(fig_investment_cumulative)
