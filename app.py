@@ -253,7 +253,8 @@ elif visualization == "Dashboard":
                 title = 'Amount',
                 titlefont_size = 16,
                 tickfont_size = 14,
-                showgrid = True
+                showgrid = True,
+                gridcolor = 'gray'
             ),
             legend = dict(
                 orientation = 'h',
