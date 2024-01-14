@@ -162,8 +162,10 @@ elif visualization == "Dashboard":
                 bordercolor = 'rgba(255, 255, 255, 0)'
             ),
             barmode = 'group',
-            bargap = 0.55, # gap between bars of adjacent location coordinates.
-            bargroupgap = 0.1 # gap between bars of the same location coordinate.
+            bargap = 0.55,
+            bargroupgap = 0.1,
+            plot_bgcolor='rgba(0,0,0,0)',
+            paper_bgcolor='rgba(0,0,0,0)'
         )
 
         # Show plot
@@ -237,7 +239,7 @@ elif visualization == "Dashboard":
         fig_investment_cumulative.update_layout(
             width = 350,
             title = {
-                'text': 'Investment',
+                'text': '',
                 'x': 0
             },
             xaxis = dict(
@@ -259,6 +261,8 @@ elif visualization == "Dashboard":
                 bgcolor = 'rgba(255, 255, 255, 0)',
                 bordercolor = 'rgba(255, 255, 255, 0)'
             ),
+            plot_bgcolor='rgba(0,0,0,0)',  
+            paper_bgcolor='rgba(0,0,0,0)'  
         )
         
         st.plotly_chart(fig_investment_cumulative)
@@ -345,7 +349,7 @@ elif visualization == "Dashboard":
         fig_expenses_donut_chart.update_layout(
             width = 250,
             title = {
-                'text': 'Highest Expense',
+                'text': '',
                 'x': 0.5,
                 'xanchor': 'center'
             },
