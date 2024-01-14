@@ -238,7 +238,7 @@ elif visualization == "Dashboard":
         )
         
         fig_investment_cumulative.update_layout(
-            width = 430,
+            width = 440,
             title = {
                 'text': '',
                 'x': 0
