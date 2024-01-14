@@ -204,7 +204,7 @@ elif visualization == "Dashboard":
 
         fig_bills_treemap.update_layout(
             title={
-                'text': 'Grouped Expenses',
+                'text': '',
                 'x': 0
             },
         )
