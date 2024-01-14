@@ -94,7 +94,7 @@ elif visualization == "Dashboard":
     df_date_filtered_expenses = df_date_filtered[df_date_filtered['income']== 0]
     
     # Get categories and subcategories and add multiselect widget
-    categories = df_date_filtered_expenses['category'].unique()
+    categories = df_date_filtered_expenses[df_date_filtered_expenses['category'] != 'Investment']['category'].unique()
 
     selected_category = st.sidebar.multiselect('Select a category', categories, 
                                                help = 'Select categories to filter the data',
